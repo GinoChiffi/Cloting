@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @zoekertje.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @zoekertje.description %>
+</p>
+
+<%= link_to 'Edit', edit_zoekertje_path(@zoekertje) %> |
+<%= link_to 'Back', zoekertjes_path %>
